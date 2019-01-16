@@ -150,7 +150,6 @@
     <ClCompile Include="Board.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Stone.cpp" />
     <ClCompile Include="WhiteStone.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -4,8 +4,8 @@ using namespace std;
 
 Board::Board()
 {
-	for (int i = 0; i < BOARD_SIZE; i++)
-		for (int j = 0; j < BOARD_SIZE; j++)
+	for (int i = 0; i < BOARD; i++)
+		for (int j = 0; j < BOARD; j++)
 			m_board[i][j] = BOARD_SURFACE;
 
 	for (int i = 1; i <= 8; i++)
@@ -16,12 +16,7 @@ Board::Board()
 	m_board[4][4] = m_board[5][5] = WHITE_STONE;
 }
 
-Board::~Board()
-{
-	delete m_board;
-}
-
-void Board::DrawBoard()
+void Board::DrawBoard(int* m_board)
 {
 	cout << "    A     B     C     D     E     F     G     H   " << endl;
 	cout << "  ----------------------------------------------- " << endl;

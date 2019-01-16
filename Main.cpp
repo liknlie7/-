@@ -14,9 +14,15 @@ int main()
 	Board* board = new Board();
 
 	// ”Õ–Ê‚Ì•\Ž¦
-	board->DrawBoard();
+	//board->DrawBoard();
 
-	delete board;
+	//delete board;
+
+	Game* othello;
+
+	othello = new Game();
+
+
 
 	return 0;
 }
