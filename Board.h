@@ -8,7 +8,7 @@ static const int WHITE_STONE = 2;
 
 class Board
 {
-	private:
+	public:
 		int m_board[BOARD][BOARD];
 	public:
 		Board();

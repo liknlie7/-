@@ -19,6 +19,5 @@ int main()
 	othello->GameStart();
 
 
-
 	return 0;
 }

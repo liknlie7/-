@@ -29,18 +29,19 @@ void Board::DrawBoard(Board* board)
 			switch (board->m_board[i][j])
 			{
 			case 1:
-				cout << "  " << "œ" << " |";
+				cout << "  " << "Z" << " |";
 				break;
 			case 2:
-				cout << "  " << "Z" << " |";
+				cout << "  " << "œ" << " |";
 				break;
 			default:
 				cout << "   " << " " << " |";
 				break;
 			}
 		}
-			cout << "|" << endl;
+		cout << "|" << endl;
 		cout << "  ----------------------------------------------- " << endl;
 	}
 }
+
 
