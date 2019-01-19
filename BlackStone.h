@@ -3,8 +3,6 @@
 
 class BlackStone : public Stone
 {
-	private:
-		int m_player;
 	public:
 		BlackStone();
 		int CountTurnOver(int board[BOARD][BOARD], int player, int p, int q, int d, int e) override;

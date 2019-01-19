@@ -16,7 +16,7 @@ Board::Board()
 	m_board[4][4] = m_board[5][5] = WHITE_STONE;
 }
 
-void Board::DrawBoard(int* m_board)
+void Board::DrawBoard(Board* board)
 {
 	cout << "    A     B     C     D     E     F     G     H   " << endl;
 	cout << "  ----------------------------------------------- " << endl;
@@ -26,7 +26,7 @@ void Board::DrawBoard(int* m_board)
 		cout << i << "|";
 		for (int j = 1; j <= 8; j++)
 		{
-			switch (m_board[i][j])
+			switch (board->m_board[i][j])
 			{
 			case 1:
 				cout << "  " << "œ" << " |";

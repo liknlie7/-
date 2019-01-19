@@ -2,10 +2,7 @@
 #include "Stone.h"
 
 class WhiteStone : public Stone
-{
-	private:
-		int m_player;
-	
+{	
 	public:
 		WhiteStone();
 		int CountTurnOver(int board[BOARD][BOARD], int player, int p, int q, int d, int e) override;

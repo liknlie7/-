@@ -12,5 +12,5 @@ class Board
 		int m_board[BOARD][BOARD];
 	public:
 		Board();
-		void DrawBoard(int* m_board);
+		void DrawBoard(Board* board);
 };

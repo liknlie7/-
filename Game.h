@@ -6,13 +6,13 @@
 
 class Game
 {
-	Board* m_board[BOARD][BOARD];
+	Board* m_board;
 	BlackStone* m_black_stone;
 	WhiteStone* m_white_stone;
 
 	public:
 		Game();
 		~Game();
-	void GameStart();
+	void GameStart() const;
 	void CountStone(int board[BOARD][BOARD], int *c1, int *c2);
 };
